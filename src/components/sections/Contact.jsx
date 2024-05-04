@@ -140,7 +140,7 @@ const Contact = () => {
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
+          form.current.reset();
         },
         (error) => {
           alert(error);
